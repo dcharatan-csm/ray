@@ -151,7 +151,7 @@ class SyncConfig:
             If set to False, checkpoint syncing from worker to driver
             is asynchronous and best-effort. This does not affect persistent
             storage syncing. Defaults to True.
-        sync_period (int): Syncing period for syncing between nodes.
+        sync_period (int): Syncing period in seconds for syncing between nodes.
 
     """
     upload_dir: Optional[str] = None
